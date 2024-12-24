@@ -1,0 +1,4 @@
+<?php
+$ip=$_GET['192.168.192.129'];
+shell_exec('ping - c 4'.$ip);
+?>
