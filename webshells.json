@@ -1,0 +1,4 @@
+[
+    {"url": "http://192.168.1.51/basic.php", "password": "c", "method": "POST"},
+    {"url": "http://192.168.1.51/basic.php", "password": "d", "method": "GET"}
+]
